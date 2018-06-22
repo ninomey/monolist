@@ -14,6 +14,6 @@
 @endsection
 
 @section('content')
-    @include('items.items')
+    @include('items.want_items')
     {!! $items->render() !!}
 @endsection
